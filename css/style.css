@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 1200px;
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #b91450;
+  padding-top: 20px;
+}
+
+.boxout {
+  height: 220px;
+  width: 750px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: black;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.boxin {
+  width: 200px;
+  height: 100px;
+  margin: 15px 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.inputbox label {
+  color: #b91450;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.inputbox input , .inputbox select {
+  margin-top: 15px;
+  border: 1px solid #b91450;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.row .buttonbox {
+  line-height: 70px;
+}
+
+.row .buttonbox button {
+  margin: 0 7px;
+  color: #b91450;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.boxout .ticketbox {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  height: 170px;
+}
+
+.boxout .namebox {
+  width: 180px;
+  height: 100%;
+  background-color: lightgray;
+  padding: 15px;
+  float: left;
+}
+
+.boxout .ticket {
+  padding: 15px;
+  width: calc(100% - 180px);
+  float: left;
+}
+
+table tr {
+  height: 40px;
+}
+
+table th, table td {
+  max-width: 150px;
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+tr .up {
+  text-transform: uppercase;
+}
+
+tr .bold {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* .hidden {
+  opacity: 0;
+  transition: 0.5;
+} */
+
+.show {
+  opacity: 1;
+  transition: 0.5;
+}
