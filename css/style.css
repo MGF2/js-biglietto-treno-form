@@ -108,10 +108,12 @@ table tr {
 }
 
 table th, table td {
-  max-width: 150px;
+  max-width: 100px;
+  min-width: 70px;
   text-align: left;
   font-size: 18px;
   font-family: sans-serif;
+  margin-right: 20px;
 }
 
 tr .up {
@@ -123,10 +125,10 @@ tr .bold {
   font-size: 22px;
 }
 
-/* .hidden {
+.hidden {
   opacity: 0;
   transition: 0.5;
-} */
+}
 
 .show {
   opacity: 1;

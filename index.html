@@ -15,37 +15,38 @@
            <div class="boxin">
              <div class="inputbox">
               <label for="">Nome Cognome</label>
-              <input type="text" name="" value="">
+              <input id="nome" type="text" name="nome" value="">
              </div>
            </div>
            <div class="boxin">
              <div class="inputbox">
-              <label for="">Km da percorrere</label>
-              <input type="number" name="" value="">
+              <label  for="">Km da percorrere</label>
+              <input id="km" type="number" name="km" value="">
              </div>
            </div>
            <div class="boxin">
              <div class="inputbox">
               <label for="">Fascia d'età</label>
-              <select class="age" name="">
-                <option value="">Maggiorenne</option>
-                <option value="">Minorenne</option>
-                <option value="">Over 65</option>
+              <select id="eta" class="" name="eta">
+                <option value="Maggiorenne">Maggiorenne</option>
+                <option value="Minorenne">Minorenne</option>
+                <option value="Over 65">Over 65</option>
               </select>
              </div>
            </div>
          </div>
          <div class="row flex">
            <div class="buttonbox">
-             <button type="button" name="button">Genera</button>
-             <button type="button" name="button">Annulla</button>
+             <button id="genera" type="button" name="button">Genera</button>
+             <button id="annulla" type="button" name="button">Annulla</button>
            </div>
          </div>
        </section>
-        <div class="row hidden">
-          <h2>tuo biglietto</h2>
-        </div>
-        <section class="boxout hidden">
+        <div id="biglietto" class="hidden">
+         <div class="row">
+           <h2>tuo biglietto</h2>
+         </div>
+         <section class="boxout">
           <div class="">
             <h3>dettaglio passeggeri</h3>
           </div>
@@ -56,7 +57,7 @@
                   <th class="up">Nome passeggero</th>
                 </tr>
                 <tr>
-                  <td class="bold">Nome</td>
+                  <td id="passeggero" class="bold"></td>
                 </tr>
               </table>
             </div>
@@ -64,24 +65,30 @@
               <table>
                 <tr>
                   <th>Offerta</th>
+                  <th></th>
                   <th>Carrozza</th>
+                  <th></th>
                   <th>Codice CP</th>
+                  <th></th>
                   <th>Costo biglietto</th>
                 </tr>
                 <tr>
 
                 </tr>
                 <tr>
-                  <td>Sconto Minorenne</td>
-                  <td>Sconto Minorenne</td>
-                  <td>Sconto Minorenne</td>
-                  <td>Sconto Minorenne</td>
+                  <td id="tariffa"></td>
+                  <td></td>
+                  <td id="carrozza"></td>
+                  <td></td>
+                  <td id="codice"></td>
+                  <td></td>
+                  <td id="costo"></td>
                 </tr>
               </table>
             </div>
-
           </div>
         </section>
+       </div>
       </div>
   <script src="js/script.js" charset="utf-8"></script>
   </body>
